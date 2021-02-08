@@ -1,5 +1,5 @@
 import React from 'react';
-import moment from 'moment';
+// import moment from 'moment';
 
 function IdCard(props) {
   return (
@@ -18,9 +18,7 @@ function IdCard(props) {
         <p>
           <b>Height</b>: {props.height}
         </p>
-        <p>
-          <b>Birthday</b>: {moment(props.birth).format('LLLL')}
-        </p>
+        <p>{/* <b>Birthday</b>: {moment(props.birth).format('LLLL')} */}</p>
       </div>
     </div>
   );
