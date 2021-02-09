@@ -1,5 +1,5 @@
 import React from 'react';
-import Rating from './rating';
+import Rating from './Rating';
 
 function drivercard(props) {
   return (
