@@ -1,0 +1,23 @@
+#credit-Card {
+  display: flex;
+
+  align-items: flex-start;
+}
+
+.driverCard {
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  width: 900px;
+  padding: 10px;
+}
+
+.driverCard img {
+  height: 100px;
+  width: 100px;
+  border-radius: 51%;
+  padding-right: 2em;
+}
